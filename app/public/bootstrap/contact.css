@@ -614,6 +614,62 @@ footer {
   padding: 25px 0;
   text-align: center;
 }
+section#flight_info {
+  background-color:white;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+}
+section#flight_info .section-heading {
+  color: white;
+}
+section#flight_info .form-group {
+  margin-bottom: 25px;
+}
+section#flight_info .form-group input,
+section#flight_info .form-group textarea {
+  padding: 20px;
+}
+section#flight_info .form-group input.form-control {
+  height: auto;
+}
+section#flight_info .form-group textarea.form-control {
+  height: 236px;
+}
+section#flight_info .form-control:focus {
+  border-color: #5c5656;
+  box-shadow: none;
+}
+section#flight_info ::-webkit-input-placeholder {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#flight_info :-moz-placeholder {
+  /* Firefox 18- */
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#flight_info ::-moz-placeholder {
+  /* Firefox 19+ */
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#flight_info :-ms-input-placeholder {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#flight_info .text-danger {
+  color: #e74c3c;
+}
+
 footer span.copyright {
   line-height: 40px;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
